@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get 'project'=> 'pages#project'
   get 'present'=> 'pages#present'
+
   root 'pages#home'
  
 

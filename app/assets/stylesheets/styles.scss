@@ -4,7 +4,7 @@
   float: left;
   margin-right: 10px;
   font-size: 1.5em;
-  color: #B266FF;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 10px;
@@ -32,7 +32,7 @@ body
 {
 	padding-top: 60px;
 
-	background-image: image-url('');
+	background-image: image-url('wall2.png');
     background-repeat: repeat;
     background-size: 100%;
 }
@@ -43,7 +43,7 @@ body
 }
 .jumbotron {
    background: rgb(54, 54, 54); /* This is for ie8 and below */
-   background: rgba(76, 54, 54, 0.4); 
+   background: rgba(224,224,224,0.5); 
 
 }
 .footer
@@ -64,19 +64,29 @@ body
 }
 
 .unique { /* In Your CSS File */
-   background-image: image-url('');
+   background-image: image-url('co.jpg');
     background-repeat: repeat;
     background-size: 100%;
     
 }
-.myCarousel {
-  height: 100%;
+.projectwall
+{ /* In Your CSS File */
+   background-image: image-url('pro.png');
+    background-repeat: repeat;
+    background-size: 100%;
+    
 }
 
 .slide
 {
  
     background: white
+}
 
-    
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 500px;
+    overflow-y: auto;
 }
