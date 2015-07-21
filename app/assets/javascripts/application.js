@@ -14,6 +14,8 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require masonry.pkgd.min.js
+//= require addthis.js
+//= require social-share-button
 //= require turbolinks
 
 //= require_tree .
